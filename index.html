@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Cumple, Naomi</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="/img/nao.jpeg" type="image/png">
+</head>
+<body>
+
+  <!-- Pantalla de bienvenida -->
+  <div id="intro-screen" class="intro-screen">
+    <div id="particles-js"></div>
+    <div class="intro-content">
+      <h1>💌 Para ti</h1>
+      <button onclick="startExperience()">Abrir carta</button>
+    </div>
+  </div>
+
+  <!-- Contenido principal -->
+  <div id="main-content" class="hidden">
+    <div id="particles-js"></div>
+    
+    <div class="titulo-carta doble">
+      <div>Feliz cumpleaños</div>
+      <div>Naomi</div>
+    </div>
+
+    <!-- Sección: Para ti -->
+    <section class="card fade-in">
+      <img src="/img/nao.jpg" alt="Naomi" class="main-image" />
+      <h2>Para ti</h2>
+      <p>Hoy no es solo un día más... es el día en que el mundo fue bendecido con tu luz. 🌼</p>
+      <p>Que cada paso que des esté lleno de magia, de sueños alcanzados y momentos que te hagan sonreír de verdad.</p>
+    </section>
+
+    <!-- Sección: Detalle especial -->
+    <section class="card fade-in">
+      <h2>Un detalle especial 🎵</h2>
+      <audio controls>
+        <source src="/audio/hyunjin-tts-file.wav" type="audio/mp3" />
+        Tu navegador no soporta el audio.
+      </audio>
+    </section>
+
+    <!-- Sección: Video -->
+    <section class="card fade-in">
+      <h2>Tu canción favorita 💜</h2>
+      <video width="100%" controls>
+        <source src="/video/Bruno Mars - The Lazy Song (Official Music Video).mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </section>
+
+    <!-- Sección: Recuerdos -->
+    <section class="card fade-in">
+      <h2>Recuerdos 🖼️</h2>
+      <p>Tu risa ilumina hasta los días más grises, y tu forma de ser deja huella en el corazón.</p>
+      <p>Gracias por cada momento, por tu alegría, tu esencia... y por ser tú. Nunca cambies. 💖</p>
+      <img src="/img/recuerdos.jpeg" alt="Recuerdo de Naomi" class="recuerdo-img" />
+    </section>
+
+    <!-- Sección: Mensaje final -->
+    <section class="card fade-in mensaje-final">
+  <h2>Desde mi corazón para ti ✨</h2>
+  <p>Naomi, jamás olvides lo inmensamente especial que eres. Dentro de ti habita una fuerza hermosa, suave pero firme, que inspira a todos los que te rodean.</p>
+  <p>Sigue soñando en grande, creyendo en ti con el corazón en alto... porque el universo siempre sonríe a quienes caminan con amor. 🌟</p>
+  <p>Espero que todo esto que preparé logre sacarte una sonrisa, aunque sea pequeñita. Lo hice con mucho cariño y pensando en ti en cada detalle.</p>
+  <p>Gracias por existir, por ser tú, y por iluminar la vida de quienes tenemos la suerte de conocerte.</p>
+  <p>Con todo mi cariño... tu tío, Cristhy 💜</p>
+</section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
